@@ -23,3 +23,16 @@ while count <= obstacles:
     count = count + 1
 print("All obstacles have been avoided.")
 
+print("How many bars should be charged?")
+
+bars = int (input())
+count = 1
+
+while count <= bars:
+    print(f"Charging: {'█'*count}")
+    count +=1
+
+
+
+
+
