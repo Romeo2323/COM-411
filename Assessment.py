@@ -17,6 +17,24 @@ def load_data(file_path):
 
 # SectionA 3
 menu = {
+    '[A]': "View Data",
+    '[B]': "Visualise Data",
+    '[C]': "Exit",
+}
+
+# Making menu
+while True:
+    print("Menu")
+    for key, value in menu.items():
+        print(f"{key}: {value}")
+    users_choice = input("Please Enter An Option: ").upper()
+
+
+
+
+
+
+
 
 
 
