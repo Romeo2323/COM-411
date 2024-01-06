@@ -28,6 +28,16 @@ while True:
     for key, value in menu.items():
         print(f"{key}: {value}")
     users_choice = input("Please Enter An Option: ").upper()
+#SectionA 4
+    if users_choice in menu:
+       print(f"You have selected {menu[users_choice]}")
+       if users_choice == 'C':
+           print("You have selected to exit the program")
+       break
+    else:
+        print("You have selected an invalid value")
+
+
 
 
 
